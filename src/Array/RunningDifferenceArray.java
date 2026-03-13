@@ -10,7 +10,7 @@ public class RunningDifferenceArray {
         }
 
         for (int i = 0; i < n; i++) {
-            rightSum = rightSum - nums[i] - leftSum;
+            rightSum = rightSum - nums[i];
             differenceArray[i] = Math.abs(rightSum - leftSum);
             leftSum += nums[i];
         }
