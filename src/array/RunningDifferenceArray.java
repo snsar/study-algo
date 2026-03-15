@@ -1,4 +1,4 @@
-package Array;
+package array;
 
 public class RunningDifferenceArray {
     public int[] findDifferenceArray(int[] nums) {
