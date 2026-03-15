@@ -8,12 +8,12 @@ public class DiagonalSum {
 
         // Loop through each row
         for (int i = 0; i < n; i++) {
-            totalSum += mat[i][i] + mat[i][n-i-1];
+            totalSum += mat[i][i] + mat[i][n - i - 1];
         }
 
         // If n is odd, subtract the central element
         if (n % 2 != 0) {
-            totalSum -= mat[n/2][n/2];
+            totalSum -= mat[n / 2][n / 2];
         }
         return totalSum;  // Return the calculated total sum
     }

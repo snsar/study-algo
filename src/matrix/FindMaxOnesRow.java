@@ -30,7 +30,5 @@ public class FindMaxOnesRow {
         FindMaxOnesRow fdo = new FindMaxOnesRow();
         int[] res = fdo.findMaxOnesRow(A);
         System.out.println(Arrays.toString(res));
-
-
     }
 }

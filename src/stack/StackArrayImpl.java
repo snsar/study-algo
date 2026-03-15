@@ -21,7 +21,7 @@ public class StackArrayImpl {
     }
 
     public int peek() {
-        if(isEmpty()) {
+        if (isEmpty()) {
             System.out.println("Stack is empty!");
             return -1;
         }
@@ -29,7 +29,7 @@ public class StackArrayImpl {
     }
 
     public int pop() {
-        if(isEmpty()) {
+        if (isEmpty()) {
             System.out.println("Stack Underflow! No elements to pop.");
             return -1;
         }
