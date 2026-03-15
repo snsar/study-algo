@@ -1,26 +1,20 @@
 # study-algo
 
-A collection of algorithm and data structure practice problems implemented in Java.
+A personal journey of learning algorithms and data structures in Java.
 
-## Structure
+## Learning Path
 
-```
-src/
-├── array/
-│   ├── ContainsDuplicate.java
-│   └── RunningDifferenceArray.java
-├── matrix/
-│   ├── DiagonalSum.java
-│   ├── FindMaxOnesRow.java
-│   └── MaximumWealth.java
-└── stack/
-    ├── BalancedParentheses.java
-    ├── StackArrayImpl.java
-    └── StackLinkedList.java
-```
+### 1. Array
+Foundational problems involving iteration, indexing, and in-place manipulation.
 
-## Topics
+### 2. Matrix
+2D array traversal, row/column operations, and grid-based problem solving.
 
-- **Array** — duplicate detection, difference arrays
-- **Matrix** — diagonal sum, row queries, wealth calculation
-- **Stack** — array/linked list implementations, balanced parentheses
+### 3. Stack
+Stack data structure implementation (array and linked list) and classic applications like balanced parentheses.
+
+## Goals
+
+- Understand core data structures from scratch
+- Solve problems with clean, readable code
+- Progress from basic to more complex topics over time
