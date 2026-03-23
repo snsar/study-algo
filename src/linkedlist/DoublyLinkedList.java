@@ -1,18 +1,7 @@
 package linkedlist;
 
-class DLNode {
-    int val;
-    DLNode prev;
-    DLNode next;
-
-    DLNode(int val) {
-        this.val = val;
-        prev = next = null;
-    }
-}
-
 public class DoublyLinkedList {
-    DLNode head;
+    public DLNode head;
 
     void traverseForward() {
         DLNode current = head;
