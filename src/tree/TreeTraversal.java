@@ -51,7 +51,7 @@ public class TreeTraversal {
         it.inorder(root); // Expected output: 1 3 4 6 8 10 14
 
         System.out.println("Preorder Traversal (Root First):");
-        it.preorder(root); //
+        it.preorder(root); //8 3 1 6 4 10 14
 
         System.out.println("Postorder Traversal (Root Last):");
         it.postorder(root); // Expected output: 1 4 6 3 14 10 8
