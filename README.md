@@ -35,3 +35,6 @@ java -cp src linkedlist.ReverseList
 - Understand core data structures from scratch
 - Solve problems with clean, readable code
 - Progress from basic to more complex topics over time
+
+
+
