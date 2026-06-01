@@ -2,14 +2,15 @@ package warmup;
 
 public class ValidAnagram {
     public boolean isAnagram(String s, String t) {
+        if (s.length() != t.length()) {
+            return false;
+        }
         int[] mapS = new int[26];
         int[] mapT = new int[26];
-        for (Character ch : s.toCharArray()) {
-            mapS[ch - 'a']++;
-        }
 
-        for (Character ch : t.toCharArray()) {
-            mapT[ch - 'a']++;
+        for (int i = 0; i < s.length(); i++) {
+            mapS[s.charAt(i) - 'a']++;
+            mapT[t.charAt(i) - 'a']++;
         }
 
         for (int i = 0; i < 26; i++) {
@@ -17,7 +18,6 @@ public class ValidAnagram {
                 return false;
             }
         }
-
 
         return true;
     }
